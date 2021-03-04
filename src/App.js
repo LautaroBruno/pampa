@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Container } from '@material-ui/core';
+import Header from './components/Header';
+import Head from './components/Head';
+import texts from './texts';
+import React from 'react';
 function App() {
+  const [actualText, setActualText] = React.useState(texts.en)
+  const changeLanguage= lang => {
+    console.log(lang)
+  }
+  console.log(actualText)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header lan={changeLanguage} text={actualText.header}/>
+      <Head text={actualText.head}/>
     </div>
   );
 }
