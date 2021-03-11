@@ -26,7 +26,8 @@ const texts = {
             serv: "Services",
             cont: "Contact",
             meet: "New meeting",
-            flag: flagUk        },
+            flag: flagEs
+        },
         head: {
             title: "Lorem ipsum",
             subtitle: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh ismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut",
@@ -185,13 +186,13 @@ const texts = {
             btn2:"lorem ipsum",
             btn3:"loren ipsum",
             form: {
-                title: "1lorem",
-                label1: "2lorem",
-                label2: "3lorem1",
-                label3: "4lorem2",
-                label4: "5lorem3",
-                label5: "6lorem4",
-                button: "7lorem5"
+                title: "lorem",
+                label1: "lorem",
+                label2: "lorem1",
+                label3: "lorem2",
+                label4: "lorem3",
+                label5: "lorem4",
+                button: "lorem5"
             }
         },
         sect9:{
@@ -238,224 +239,7 @@ const texts = {
             },
         ]
     },
-    es:  {
-        header: {
-            serv: "Services",
-            cont: "Contact",
-            meet: "New meeting",
-            flag: flagEs
-        },
-        head: {
-            title: "Forem ipsum",
-            subtitle: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh ismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut",
-            button: "Forem ipsum dolor sit amet",
-            form: {
-                title: "Forem",
-                label1: "Forem1",
-                label2: "Forem2",
-                label3: "Forem3",
-                label4: "Forem4",
-                label5: "Forem5",
-                button: "Forem6"
-            }
-        },
-        sect1: {
-            title: "Forem Ipsum2",
-            circles: [
-                {
-                    img: circle1,
-                    title: "Forem Ipsum",
-                    content: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
-                },
-                {
-                    img: circle2,
-                    title: "Forem Ipsum",
-                    content: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
-                },
-                {
-                    img: circle3,
-                    title: "Forem Ipsum",
-                    content: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
-                },
-                {
-                    img: circle4,
-                    title: "Forem Ipsum",
-                    content: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
-                },
-                {
-                    img: circle5,
-                    title: "Forem Ipsum",
-                    content: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
-                },
-                {
-                    img: circle6,
-                    title: "Forem Ipsum",
-                    content: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
-                }
-            ]
-        },
-        sect2:{
-            title:"Forem",
-            steps:[
-                {
-                    numb:1,
-                    title:"Forem Impsum",
-                    content:"Forem ipsum dolor sit amet, consectetuer adipiscing elit."
-                },
-                {
-                    numb:2,
-                    title:"Forem Impsum",
-                    content:"Forem ipsum dolor sit amet, consectetuer adipiscing elit."
-                },
-                {
-                    numb:3,
-                    title:"Forem Impsum",
-                    content:"Forem ipsum dolor sit amet, consectetuer adipiscing elit."
-                },
-            ]
-        },
-        sect3:{
-            title:"Forem Ipsum",
-            people:[
-                {
-                    img:person,
-                    title:"Forem Impsum",
-                    content:"Forem ipsum dolor.",
-                    content2:"Forem ipsum."
-                },
-                {
-                    img:person2,
-                    title:"Forem Impsum",
-                    content:"Forem ipsum dolor.",
-                    content2:"Forem ipsum."
-                },
-                {
-                    img:person3,
-                    title:"Forem Impsum",
-                    content:"Forem ipsum dolor.",
-                    content2:"Forem ipsum."
-                },
-            ]
-        },
-        sect4:{
-            title:"Forem Ipsum",
-            logos:[
-                logoAccenture,
-                logoEveris,
-                logoJohnDeere,
-                logoSap
-            ]
-        },
-        sect5:{
-            title:"Forem",
-            button:"Forem ipsum",
-            content:<span> Forem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in  <b> reprehenderit in voluptate velit esse cillum dolore eu </b> fugiat nulla pariatur. <b> Excepteur sint occaecat cupidatat </b> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.,</span>
-        },
-        sect6:{
-            title:"Forem ipsum dolor",
-            faqs:[
-                {
-                    faq:" Forem ipsum dolor sit ameasdasdasd t132?",
-                    ans:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati"
-                },
-                {
-                    faq:" Forem ipsum dolor sit ameasdasdasd t?",
-                    ans:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati"
-                },
-                {
-                    faq:" Forem ipsum dolor sit amet asdasdasd ?",
-                    ans:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati"
-                },
-                {
-                    faq:" Forem ipsu sit aasdmet?",
-                    ans:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati"
-                },
-                {
-                    faq:" Forem iasdfsadasd psum dolor sit amasdasfet?",
-                    ans:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati"
-                },
-                {
-                    faq:" Forem iasdft?",
-                    ans:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati"
-                },
-            ]
-        },
-        sect7:{
-            title:"Forem ipsum",
-            citas:[
-                {
-                    name:"Forem ipsum",
-                    declaration:"Forem ipsum dolor sit amet Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati",
-                    photo:photoCita
-                },
-                {
-                    name:"Forem ipsum",
-                    declaration:"Forem ipsum dolor sit amet asdsadasd asd asd Forem ipsum dolor sit amet ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati",
-                    photo:photoCita2
-                },
-                
-            ]
-        },
-        sect8:{
-            title:"Forem ipsum",
-            content:<span> Forem ipsum dlum dolore eu fugiat nulla pariatur. <b> Excepteur sint occaecat cupidatat </b> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>,
-            btn1:"Forem ipasdasdas",
-            btn2:"Forem ipsum",
-            btn3:"loren ipsum",
-            form: {
-                title: "Forem",
-                label1: "Forem",
-                label2: "Forem1",
-                label3: "Forem2",
-                label4: "Forem3",
-                label5: "Forem4",
-                button: "Forem5"
-            }
-        },
-        sect9:{
-            title:"Forem ipsum",
-            placeholder:"Forem",
-            placeholder2:"Forem2",
-            button:"Forem ipsum"
-        },
-        footer:{
-            button:"Forem ipsum",
-            email:"info@pambibi.com",
-            twitter:"",
-            facebook:"",
-            instagram:"",
-            linkedin:""
-        },
-        map:[
-            {
-                country:"Argentina",
-                adress:"fake street 123",
-                phones:[
-                    "110234651651",
-                    "110234651651"
-                ],
-                flag:arg
-            },
-            {
-                country:"USA",
-                adress:"fake street 123",
-                phones:[
-                    "110234651651",
-                    "110234651651"
-                ],
-                flag:usa
-            },
-            {
-                country:"Chile",
-                adress:"fake street 123",
-                phones:[
-                    "110234651651",
-                    "110234651651"
-                ],
-                flag:chl
-            },
-        ]
-    },
+    es: ""
 
 
 }

@@ -19,23 +19,23 @@ import { makeStyles } from '@material-ui/core/styles';
                 <form className={violet ?"form-home fh-violet" : "form-home fh-black"} onSubmit={(e)=>submitForm(e)}>
                     <div style={divStyle}>
                         <label  className="input-label" htmlFor={violet ? text.label1.replace(" ","") : text.label1.replace(" ","")+2}>{text.label1}</label>
-                        <input className="input-f" id={text.label1.replace(" ","")} aria-describedby="my-helper-text" />
+                        <input className="input-f" id={violet ? text.label1.replace(" ","") : text.label1.replace(" ","")+2} aria-describedby="my-helper-text" />
                     </div>
                     <div style={divStyle}>
-                        <label  className="input-label" htmlFor={violet ? text.label1.replace(" ","") : text.label1.replace(" ","")+2}>{text.label2}</label>
-                        <input className="input-f" id={text.label2.replace(" ","")} aria-describedby="my-helper-text" />
+                        <label  className="input-label" htmlFor={violet ? text.label2.replace(" ","") : text.label2.replace(" ","")+2}>{text.label2}</label>
+                        <input className="input-f" id={violet ? text.label2.replace(" ","") : text.label2.replace(" ","")+2} aria-describedby="my-helper-text" />
                     </div >
                     <div style={divStyle}>
-                        <label  className="input-label" htmlFor={violet ? text.label1.replace(" ","") : text.label1.replace(" ","")+2}>{text.label3}</label>
-                        <input className="input-f" id={text.label3.replace(" ","")} aria-describedby="my-helper-text" />
+                        <label  className="input-label" htmlFor={violet ? text.label3.replace(" ","") : text.label3.replace(" ","")+2}>{text.label3}</label>
+                        <input className="input-f" id={violet ? text.label3.replace(" ","") : text.label3.replace(" ","")+2} aria-describedby="my-helper-text" />
                     </div>
                     <div style={divStyle}>
-                        <label  className="input-label" htmlFor={violet ? text.label1.replace(" ","") : text.label1.replace(" ","")+2}>{text.label4}</label>
-                        <input className="input-f" id={text.label4.replace(" ","")} aria-describedby="my-helper-text" />
+                        <label  className="input-label" htmlFor={violet ? text.label4.replace(" ","") : text.label4.replace(" ","")+2}>{text.label4}</label>
+                        <input className="input-f" id={violet ? text.label4.replace(" ","") : text.label4.replace(" ","")+2} aria-describedby="my-helper-text" />
                     </div>
                     <div style={divStyle}>
-                        <label  className="input-label" htmlFor={violet ? text.label1.replace(" ","") : text.label1.replace(" ","")+2}>{text.label5}</label>
-                        <input className="input-f" id={text.label5.replace(" ","")} aria-describedby="my-helper-text" />
+                        <label  className="input-label" htmlFor={violet ? text.label5.replace(" ","") : text.label5.replace(" ","")+2}>{text.label5}</label>
+                        <input className="input-f" id={violet ? text.label5.replace(" ","") : text.label5.replace(" ","")+2} aria-describedby="my-helper-text" />
                     </div>
                     <Button type="submit" style={{color:"white",fontSize:"20px",backgroundColor:"#34B2E7",margin:"auto",minWidth:"180px"}}>{text.button}</Button>
                 </form>

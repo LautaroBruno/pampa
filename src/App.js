@@ -19,9 +19,14 @@ import MapSection from './components/MapSection';
 function App() {
   const [actualText, setActualText] = React.useState(texts.en)
   const changeLanguage= lang => {
-    console.log(lang)
+    actualText===texts.en ? setActualText(texts.es): setActualText(texts.en)
   }
-  console.log(actualText)
+  React.useEffect(() => {
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.includes("es") && !actualText){
+      setActualText(texts.es)
+    }
+  })
   return (
     <div className="App">
       <Header lan={changeLanguage} text={actualText.header}/>
