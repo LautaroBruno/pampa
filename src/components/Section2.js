@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Grid, Box } from '@material-ui/core'
 import Steps from './Steps'
-const Section2 = ({text}) => {
+const Section2 = ({ }) => {
     return (
         <div>
             <Container style={{textAlign:"left",display:"flex",flexDirection:"column"}}>
