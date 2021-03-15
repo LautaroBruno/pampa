@@ -3,7 +3,6 @@ import React from 'react'
 import arrowDown from '../resources/img/Interior/flecha-abajo.png'
 
 const Section6 = ({ text }) => {
-    console.log(text)
     return (
 
         <Container>

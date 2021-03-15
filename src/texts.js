@@ -30,7 +30,7 @@ const texts = {
         head: {
             title: "Lorem ipsum",
             subtitle: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh ismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut",
-            button: "Lorem ipsum dolor sit amet",
+            button: "Lorem ipsu",
             form: {
                 title: "lorem",
                 label1: "lorem1",
@@ -248,7 +248,7 @@ const texts = {
         head: {
             title: "Forem ipsum",
             subtitle: "Forem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh ismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut",
-            button: "Forem ipsum dolor sit amet",
+            button: "Forem ipsum ",
             form: {
                 title: "Forem",
                 label1: "Forem1",

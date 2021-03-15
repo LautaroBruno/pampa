@@ -29,11 +29,11 @@ const Head = ({text}) => {
                         <Box className={classes.boxTitle} style={{}} textAlign="left">
                             <h1 className="lblue titlehead bolder">{text.title}</h1>
                             <h2 className="white subtitlehead">{text.subtitle}</h2>
-                            <div style={{padding:"7px 24px", width:"max-content"}} className="meet-btn bg-violet white ">{text.button}</div>
+                            <div style={{padding:"7px 24px", width:"fit-content"}} className="meet-btn bg-violet white ">{text.button}</div>
                         </Box>
                     </Grid>
                     <Grid sm={12} md={5}>
-                        <CustomForm text={text.form} violet={true}/>
+                        <CustomForm text={text.form} violet={true} />
                     </Grid>
                 </Grid>
             </Container>

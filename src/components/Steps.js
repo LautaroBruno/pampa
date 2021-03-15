@@ -2,7 +2,6 @@ import React from 'react'
 import { Grid } from '@material-ui/core'
 
 const Steps = ({content}) => {
-    console.log(content)
     return (
         <Grid className="" style={{textAlign:"center",marginBottom:"30px"}} container direction="column" justify="center" alignItems="center" md={4} sm={12}>
             <h2 style={{fontSize:"70px",margin:"10px 0"}} className="violet">{content.numb+"."}</h2>

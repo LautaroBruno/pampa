@@ -4,17 +4,17 @@ import { makeStyles } from '@material-ui/core/styles';
 
 
  const CustomForm = ({text,violet}) => {
+    const [width, setwidth] = React.useState(window.innerWidth)
     
     const divStyle = {
         margin: "12px 0px"
     }
     const submitForm= e=>{
         e.preventDefault();
-        console.log(e.target)
     }
     return (
-        <div style={{padding:"30px"}}>
-            <div style={{marginTop:"70px", textAlign:"left",padding:"15px 70px"}} className={violet ? "bg-violet forms-land " :  "bg-black forms-land"}>
+        <div style={{padding:"15px"}}>
+            <div style={{marginTop:"70px", textAlign:"left",padding:width > 400 ? "15px 70px" : "15px 15px"}} className={violet ? "bg-violet forms-land " :  "bg-black forms-land"}>
                 <h2 style={{margin:"0",fontSize:"33px"}} className={violet ? "white" :"lblue"}>{text.title}</h2>
                 <form className={violet ?"form-home fh-violet" : "form-home fh-black"} onSubmit={(e)=>submitForm(e)}>
                     <div style={divStyle}>

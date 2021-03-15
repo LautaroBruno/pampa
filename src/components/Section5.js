@@ -11,7 +11,7 @@ const section5 = ({ text }) => {
                 </h2>
             </Container>
             <Grid
-                style={{overflow:"hidden", paddingBottom: "20px" }}
+                style={{overflow:"hidden", paddingBottom: "20px", }}
                 container
                 direction="row"
                 justify="center"
@@ -23,8 +23,8 @@ const section5 = ({ text }) => {
 
                 <Grid  sm={12} md={6}>
                     <div style={{padding:"2em"}}>
-                    <p className="big">{text.content}</p>
-                    <div style={{padding:"7px 24px", width:"max-content"}} className="meet-btn bg-violet white ">{text.button}</div>
+                        <p className="big">{text.content}</p>
+                        <div style={{padding:"7px 24px", width:"max-content"}} className="meet-btn bg-violet white ">{text.button}</div>
                     </div>
                 </Grid>
             </Grid>
