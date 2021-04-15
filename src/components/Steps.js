@@ -7,7 +7,6 @@ const Steps = ({content}) => {
             <h2 style={{fontSize:"70px",margin:"10px 0"}} className="violet">{content.numb+"."}</h2>
             <h2 style={{fontSize:"36px",margin:"0px",fontWeight:"500"}}>{content.title}</h2>
             <div style={{padding:"0 10%"}}>{content.content}</div>
-            
         </Grid>
     )
 }

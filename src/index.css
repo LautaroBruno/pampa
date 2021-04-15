@@ -44,6 +44,14 @@ h1 {
     background-color: #824DE6;
 }
 
+.header_line{
+    border-bottom-color: rgba(52, 178, 231, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(90deg, rgba(52, 178, 231, 1) 0%, rgba(52, 178, 231, 1) 18%, rgba(255, 255, 255, 0.1) 18%, rgba(255, 255, 255, 0.1) 100%);
+}
+
 .menu-container {
     height: 100%;
     font-size: 22px;
@@ -132,7 +140,14 @@ h1 {
     border-right: none;
 }
 
-
+@media (max-width: 400px) {
+    .form-home input{
+        font-size: 15px !important;
+    }
+    .form-home{
+        padding:0 !important
+    }
+}
 .form-home input {
     outline: none !important;
     outline-width: 0 !important;
@@ -207,8 +222,12 @@ h3 {
     font-size: 23px
 }
 
+.cita-container-mb {
+    padding:10px;
+    background: black;
+}
 .cita-container {
-    min-height: 310px;
+    padding:10px;
     background: black;
     background-size: 50%;
     background: rgb(0,0,0);
@@ -228,6 +247,20 @@ h3 {
     font-size: 15px;
     text-align: justify;
 }
+.cita-text-mb {
+    text-align: right;
+}
+
+.cita-text-mb .lblue {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.cita-text-mb .white {
+    font-size: 15px;
+    text-align: justify;
+}
+
 
 .second-form {
     background-image: url(./resources/img/Interior/bg-contacto.png);
@@ -235,6 +268,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 @media (max-width: 950px) {
     .second-form {
@@ -307,6 +341,23 @@ h3 {
     position: absolute;
 }
 
+
+.img-map-location-mb.Chile {
+    bottom: 13.5%;
+    left: 54.1%;
+    position: absolute;
+}
+.img-map-location-mb.Argentina {
+    bottom: 15.5%;
+    left: 63.5%;
+    position: absolute;
+}
+
+.img-map-location-mb.USA {
+    bottom: 49.5%;
+    left: 45.8%;
+    position: absolute;
+}
 .map-location-name {
     position: absolute;
     padding: 12px;
@@ -315,6 +366,14 @@ h3 {
     color: white
 }
 
+.map-location-name-mb {
+    padding: 12px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 90% !important;
+    margin: -10px auto 20px auto
+}
 .map-location-name h2 {
     font-weight: 700;
     margin: 0;
@@ -324,13 +383,28 @@ h3 {
     border-image-slice: 2;
     border-image-source: linear-gradient(90deg, rgba(52, 178, 231, 1) 0%, rgba(52, 178, 231, 1) 35%, rgba(255, 255, 255, 0.1) 35%, rgba(255, 255, 255, 0.1) 100%);
 }
+.map-location-name-mb {
 
+}
+.map-location-name-mb img {
+    width:60px;
+    object-fit: contain;
+}
 .map-location-name a {
     color: white;
     text-decoration: none;
     margin: 0
 }
 
+.map-location-name-mb a {
+    color: white;
+    text-decoration: none;
+    margin: 0
+}
+
+.map-location-name-mb p {
+    margin: 6px 0
+}
 .map-location-name p {
     margin: 6px 0
 }
@@ -349,6 +423,8 @@ h3 {
     bottom: 53.5%;
     left: 26.8%;
 }
+
+
 
 .close-menu {
     position: absolute;

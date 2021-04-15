@@ -24,7 +24,7 @@ const Section9 = ({ text }) => {
                     <input type="text" placeholder={text.placeholder2} />
                 </Grid>
                 <Grid md={4} sm={12}>
-                    <button style={{margin:"5% 5px",width:"90%"}}>{text.button}</button>
+                    <button style={{margin:"5% 5px"}}>{text.button}</button>
                 </Grid>
             </Grid>
         </Container>

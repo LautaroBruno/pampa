@@ -13,8 +13,8 @@ import { makeStyles } from '@material-ui/core/styles';
         e.preventDefault();
     }
     return (
-        <div style={{padding:"15px"}}>
-            <div style={{marginTop:"70px", textAlign:"left",padding:width > 400 ? "15px 70px" : "15px 15px"}} className={violet ? "bg-violet forms-land " :  "bg-black forms-land"}>
+        <div style={{padding:violet?"15px":"15px 70px"}}>
+            <div style={{marginTop:"70px", textAlign:"left",padding:width > 435 ? "15px 70px" : "15px 30px"}} className={violet ? "bg-violet forms-land " :  "bg-black forms-land"}>
                 <h2 style={{margin:"0",fontSize:"33px"}} className={violet ? "white" :"lblue"}>{text.title}</h2>
                 <form className={violet ?"form-home fh-violet" : "form-home fh-black"} onSubmit={(e)=>submitForm(e)}>
                     <div style={divStyle}>
